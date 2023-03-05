@@ -19,7 +19,8 @@ public class MoodAnalyserExceptional extends Exception {
     }
 
     public enum exceptionType {
-        ENTERED_EMPTY, ENTERED_NULL, NO_SUCH_CLASS, NO_SUCH_METHOD, METHOD_INVOCATION_ISSUE
+        ENTERED_EMPTY, ENTERED_NULL, NO_SUCH_CLASS, NO_SUCH_METHOD, METHOD_INVOCATION_ISSUE,
+        NO_SUCH_FIELD, ILLEGAL_ACCESS
     }
 }
 
